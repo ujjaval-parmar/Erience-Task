@@ -95,7 +95,7 @@ const UserForm = () => {
   // console.log(formData);
 
   return (
-    <div>
+    <div className='max-w-lg mt-10'>
 
       <h2 className='uppercase text-xl text-center my-6 font-semibold'>Add User</h2>
 
