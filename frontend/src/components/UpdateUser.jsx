@@ -125,7 +125,7 @@ const UpdateUser = ({ setUpdateUserId, updateUserId }) => {
 
 
     return (
-        <div>
+        <div className='max-w-lg mt-10'>
             <h2 className='uppercase text-xl text-center my-6 font-semibold'>Update User</h2>
             <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
 
