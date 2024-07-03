@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table,  td, tr, th {
+  @apply border border-black border-collapse
+}
+
+td{
+  @apply p-1
+}
